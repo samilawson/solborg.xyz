@@ -1,0 +1,177 @@
+body {
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
+    color: #4f4f4f;
+    margin: 0;
+}
+
+#topsection {
+    width: 100%;
+    background-image: url("norrlandball.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: default;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    margin: 0;
+    padding: 80px 300px 20px 80px;
+}
+
+#topsection p {
+    margin: 0;
+    font-size: 24px;
+    padding: 0 300px 80px 80px;
+}
+
+.section {
+    width: 100%;
+    min-height: 258.4px;
+    max-height: 258.4px;
+    /*background-image: url("arrow_down.png");
+    background-size: 258.4px;
+    background-repeat: no-repeat;
+    background-position: right;*/
+    transition: max-height 1s;
+    overflow: none;
+}
+
+.clickable {
+    background-image: url("arrow_down.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: right;
+    width: 258.4px;
+    height: 258.4px;
+    cursor: pointer;
+}
+
+h2 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    margin: 0;
+    padding: 100px 258.4px 30px 80px;
+}
+
+.content {
+    color: #fff;
+    max-width: 50%;
+    padding-left: 80px;
+    padding-right: 258.4px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#section0 {
+    background-color: #00bfe0;
+}
+
+#section1 {
+    background-color: #4f4f4f;
+}
+
+#section2 {
+    background-color: #0080db;
+}
+
+a, a:visited {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.ending {
+    padding-bottom: 80px;
+    margin-bottom: 0;
+}
+
+.preview {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    max-height: 230px;
+    border: 12px solid #fff;
+}
+
+.item {
+    display: inline-block;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.item img {
+    width: 190px;
+}
+
+.item p {
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeout {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@media only screen and (max-device-width: 480px) {
+    #topsection {
+        height: 430px;
+        background-position: bottom;
+        background-size: 280px;
+    }
+    
+    h1, p, #topsection p, h2, .content {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    h1 {
+        font-size: 48px;
+        padding-top: 40px;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 28px;
+        padding-top: 40px;
+    }
+    
+    .section {
+        max-height: 1000px;
+    }
+    
+    .clickable {
+        display: none;
+    }
+    
+    .content {
+    	opacity: 1;
+        max-width: 100%;
+    }
+    
+    .preview {
+    	display: block;
+    	margin: 0 0 30px 0;
+    	width: 100%;
+    	border: 8px solid #fff;
+    }
+    
+    .item {
+    	display: block;
+    	text-align: center;
+    	margin: 0 0 30px 0;
+    }
+}

@@ -1,0 +1,85 @@
+[05-Sep-2016 15:48:36 America/New_York] PHP Warning:  fopen(posts/2016-09-05_hiachijan-joins-slovossia-in-the-violetist/sjw-war-hiachijan.md): failed to open stream: No such file or directory in /home/solbahzu/public_html/rp/admin.php on line 27
+[05-Sep-2016 15:48:36 America/New_York] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/solbahzu/public_html/rp/admin.php on line 28
+[05-Sep-2016 15:48:36 America/New_York] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/solbahzu/public_html/rp/admin.php on line 29
+[06-Sep-2016 00:46:44 America/New_York] PHP Notice:  Undefined offset: 1 in /home/solbahzu/public_html/rp/app/includes/functions.php on line 58
+[03-Nov-2016 13:09:51 America/New_York] PHP Warning:  file_get_contents(https://www.nationstates.net/cgi-bin/api.cgi?nation=telvorian&amp;q=wa): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/solbahzu/public_html/rp/register.php on line 23
+[03-Nov-2016 15:38:58 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=frysk_keninkryk): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[04-Nov-2016 17:47:14 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=skaan): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[04-Nov-2016 21:47:29 America/New_York] PHP Warning:  file_get_contents(https://www.nationstates.net/cgi-bin/api.cgi?nation=the_democratic_states_of_standard_de_liege&amp;q=wa): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/solbahzu/public_html/rp/register.php on line 23
+[04-Nov-2016 21:48:09 America/New_York] PHP Warning:  file_get_contents(https://www.nationstates.net/cgi-bin/api.cgi?nation=norrland&amp;q=wa): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/solbahzu/public_html/rp/register.php on line 23
+[10-Nov-2016 05:23:42 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=new_woking): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[11-Nov-2016 05:15:41 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=odenreig): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[12-Nov-2016 13:58:49 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=phoenix_sunrise): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[15-Nov-2016 05:45:58 America/New_York] PHP Warning:  file_get_contents(https://www.nationstates.net/cgi-bin/api.cgi?nation=the_kingdom_of_gothsong&amp;q=wa): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/solbahzu/public_html/rp/register.php on line 23
+[16-Nov-2016 00:10:13 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 00:10:13 America/New_York] PHP Notice:  Undefined variable: formattitle in /home/solbahzu/public_html/rp/admin.php on line 32
+[16-Nov-2016 00:14:52 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 00:14:52 America/New_York] PHP Notice:  Undefined variable: formattitle in /home/solbahzu/public_html/rp/admin.php on line 32
+[16-Nov-2016 00:42:34 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 00:42:34 America/New_York] PHP Notice:  Undefined variable: formattitle in /home/solbahzu/public_html/rp/admin.php on line 32
+[16-Nov-2016 00:44:45 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 02:11:50 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 04:35:05 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 09:26:17 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 09:35:31 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 09:39:57 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 09:58:41 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 10:52:40 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 10:56:24 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 16:37:49 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 16:48:29 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 17:01:00 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 19:38:01 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 21:15:49 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 21:26:51 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 22:15:43 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 22:40:44 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[16-Nov-2016 23:30:18 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[17-Nov-2016 00:03:01 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[17-Nov-2016 00:18:04 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[17-Nov-2016 00:46:19 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[17-Nov-2016 00:58:54 America/New_York] PHP Notice:  Undefined variable: formattitleB in /home/solbahzu/public_html/rp/admin.php on line 20
+[17-Nov-2016 01:05:54 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/solbahzu/public_html/rp/admin.php on line 19
+[17-Nov-2016 01:06:32 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/solbahzu/public_html/rp/admin.php on line 19
+[17-Nov-2016 01:10:09 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/solbahzu/public_html/rp/admin.php on line 19
+[17-Nov-2016 01:10:13 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/solbahzu/public_html/rp/admin.php on line 19
+[17-Nov-2016 01:10:17 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/solbahzu/public_html/rp/admin.php on line 19
+[17-Nov-2016 01:10:44 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/solbahzu/public_html/rp/admin.php on line 19
+[17-Nov-2016 01:11:10 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/solbahzu/public_html/rp/admin.php on line 19
+[17-Nov-2016 01:14:20 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/solbahzu/public_html/rp/admin.php on line 19
+[18-Nov-2016 09:58:13 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=the_kolam_brotherhood): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[18-Nov-2016 16:07:44 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=obamaosamallamastan): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[18-Nov-2016 19:59:27 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=agapathapoo): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[21-Nov-2016 21:51:31 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=vladimirstan): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[23-Nov-2016 12:08:40 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=osterraich): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[26-Nov-2016 11:10:16 America/New_York] PHP Parse error:  syntax error, unexpected '?' in /home/solbahzu/public_html/rp/app/views/layout.html.php on line 32
+[04-Dec-2016 17:43:27 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=fascist_adrea): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[05-Dec-2016 17:44:58 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=karlsfell): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[07-Dec-2016 19:45:41 America/New_York] PHP Warning:  file_get_contents(http://www.nationstates.net/cgi-bin/api.cgi?a=sendTG&amp;client=83d64181&amp;tgid=17354990&amp;key=1ece45069425&amp;to=harvallia): failed to open stream: HTTP request failed! HTTP/1.1 429 API  TG ratelimit exceeded by client &quot;@Norrland@ Stockgrove&quot;.
+ in /home/solbahzu/public_html/rp/register.php on line 30
+[25-Dec-2016 11:11:06 America/New_York] PHP Warning:  file_get_contents(https://www.nationstates.net/cgi-bin/api.cgi?nation=alpians&amp;q=wa): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/solbahzu/public_html/rp/register.php on line 23
+[13-Jan-2017 17:19:30 America/New_York] PHP Warning:  file_get_contents(https://www.nationstates.net/cgi-bin/api.cgi?nation=norrland&amp;q=wa): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/solbahzu/public_html/rp/register.php on line 23
+[23-Jan-2017 09:26:50 America/New_York] PHP Warning:  file_get_contents(https://www.nationstates.net/cgi-bin/api.cgi?nation=norsolonia_&amp;q=wa): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/solbahzu/public_html/rp/register.php on line 23
+[23-Jan-2017 19:44:01 America/New_York] PHP Warning:  file_get_contents(https://www.nationstates.net/cgi-bin/api.cgi?nation=elementia&amp;q=wa): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/solbahzu/public_html/rp/register.php on line 23
+[27-Jan-2017 09:16:22 America/New_York] PHP Warning:  file_get_contents(https://www.nationstates.net/cgi-bin/api.cgi?nation=graymare&amp;q=wa): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/solbahzu/public_html/rp/register.php on line 23

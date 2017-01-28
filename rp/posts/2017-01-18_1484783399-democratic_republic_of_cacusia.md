@@ -1,0 +1,7 @@
+# TERROR: entralstani assasination attempt on Cacusian Leader
+
+Posted by: democratic_republic_of_cacusia
+
+Nations involved: Cacusia, Centralstan
+
+Earlier today the leader f Cacusia was shot by a terrorist who has possible links to Centralstan. There were six shots fired less than a minute after the leader concluded a speech in Katmandu. Two bullets found their mark with one entering the right leg and the other through the lower left side of the rib cage, damaging the spleen. The leader was taken to a hospital in Katmandu after loosing a significant amount of blood. From there the leader was taken all the way back to Ravens Landing in Cacusia to be treated. the leader is still in critical condition and it is doubtful that the leader will survive due to the large amount of blood loss. The terrorist was caught and has been taken back to Cacusia for questioning. He has been linked to Centralstan and quite possibly may have been working for the Centralstani government. The Cacusian people have remained resilient and stand with the leader. The leaders second, Kitt Zannah, sends this message to Centralstan " you may attack us, use terror against us, attempt to assasinate our beloved leader but you will never defeat the great Cacusian people." It should be noted that Kitt Zannah is Nepali/Tibetan and is from a poor family in the Cacusian colony. There will be more updates on the leaders condition.     

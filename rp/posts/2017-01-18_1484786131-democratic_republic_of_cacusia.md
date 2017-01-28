@@ -1,0 +1,7 @@
+# TERROR: Centralstan agin makes false assumtions
+
+Posted by: democratic_republic_of_cacusia
+
+Nations involved: Cacusia, Centralstan
+
+Centralstan is accusing  Cacusia of abusing the citizens of their colony as well as questioning why their leader was in the colony. In fact the native Tibetans and Nepalis are receiving care packages, food, and housing from the Cacusian government. The leader was there to announce the unveiling of a new plan to help the poor in the colony.  The leader was reaching out to the citizens of his colony. Maybe Centralstan does not understand this because it perhaps may not value the importance of their citizens as much as Cacusia does. The Centralstani government should admit their connection to the attack. Why else would a Centralstani man shoot a person who was attempting to help his own citizens. Centralstan was probably attempting to spread chaos in Cacusia and make sure its grip on Asia remained secure. Kitt Zannah, the leaders second, said " Centralstan does not own Asia nor does anyone else. Those who think they have control over it are deluding themselves." Cacusia will continue working to help the poor and oppressed in their country and their colony, while the citizens hope for the leaders recovery.

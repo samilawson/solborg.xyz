@@ -1,0 +1,17 @@
+[27-Aug-2016 15:34:32 America/New_York] PHP Notice:  Undefined index: password in /home/solbahzu/public_html/nyheter/admin.php on line 8
+[27-Aug-2016 15:34:32 America/New_York] PHP Notice:  Undefined index: srk456 in /home/solbahzu/public_html/nyheter/admin.php on line 9
+[29-Aug-2016 19:22:32 America/New_York] PHP Notice:  Undefined index: password in /home/solbahzu/public_html/nyheter/admin.php on line 8
+[29-Aug-2016 19:22:32 America/New_York] PHP Notice:  Undefined index: srk456 in /home/solbahzu/public_html/nyheter/admin.php on line 9
+[29-Aug-2016 19:22:37 America/New_York] PHP Notice:  Undefined index: srk456 in /home/solbahzu/public_html/nyheter/admin.php on line 9
+[29-Aug-2016 20:10:20 America/New_York] PHP Notice:  Undefined index: password in /home/solbahzu/public_html/nyheter/admin.php on line 8
+[02-Oct-2016 11:43:32 America/New_York] PHP Notice:  Undefined index: password in /home/solbahzu/public_html/nyheter/admin.php on line 8
+[02-Oct-2016 11:43:32 America/New_York] PHP Notice:  Undefined index: srk456 in /home/solbahzu/public_html/nyheter/admin.php on line 9
+[02-Oct-2016 11:43:42 America/New_York] PHP Notice:  Undefined index: srk456 in /home/solbahzu/public_html/nyheter/admin.php on line 9
+[02-Oct-2016 11:44:07 America/New_York] PHP Notice:  Undefined index: password in /home/solbahzu/public_html/nyheter/admin.php on line 8
+[02-Oct-2016 11:44:07 America/New_York] PHP Notice:  Undefined index: filename in /home/solbahzu/public_html/nyheter/admin.php on line 35
+[02-Oct-2016 11:44:07 America/New_York] PHP Notice:  Undefined index: content in /home/solbahzu/public_html/nyheter/admin.php on line 36
+[14-Oct-2016 22:40:03 America/New_York] PHP Notice:  Undefined index: password in /home/solbahzu/public_html/nyheter/admin.php on line 8
+[14-Oct-2016 22:40:03 America/New_York] PHP Notice:  Undefined index: srk456 in /home/solbahzu/public_html/nyheter/admin.php on line 9
+[14-Oct-2016 22:40:06 America/New_York] PHP Notice:  Undefined index: srk456 in /home/solbahzu/public_html/nyheter/admin.php on line 9
+[14-Oct-2016 22:54:57 America/New_York] PHP Notice:  Undefined index: password in /home/solbahzu/public_html/nyheter/admin.php on line 8
+[14-Oct-2016 22:55:01 America/New_York] PHP Notice:  Undefined offset: 1 in /home/solbahzu/public_html/nyheter/app/includes/functions.php on line 58

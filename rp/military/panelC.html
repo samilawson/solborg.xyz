@@ -1,0 +1,154 @@
+<style>
+    body {
+        margin: 40px;
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+        color: #4f4f4f;
+    }
+    
+    div {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #eee;
+        padding: 12px;
+        border-bottom-left-radius: 16px;
+    }
+    
+    button {
+        background: #fff;
+        border: 1px solid #4f4f4f;
+        font-size: 18px;
+        font-family: inherit;
+        padding: 8px;
+    }
+    
+    button:active, input:focus {
+        background: #eee;
+        outline: none;
+    }
+    
+    input {
+        font-size: 18px;
+        padding: 2px;
+        border: 1px solid #4f4f4f;
+    }
+    
+    a, a:visited {
+        color: #00f;
+    }
+            
+    a:hover {
+        text-decoration: none;
+    }
+    
+    hr {
+        margin: 30px 0;
+        border: 1px solid #4f4f4f;
+    }
+</style>
+
+<p><b>LAND VEHICLES</b></p>
+
+<p>Battle tanks (550 PPU):</p>
+<input type="number" id="bt" value="0" onchange="price()">
+
+<p>Armored fighting vehicles (200 PPU):</p>
+<input type="number" id="afv" value="0" onchange="price()">
+
+<p><b>AIRCRAFT</b></p>
+
+<p>Fighters/interceptors (5,500 PPU):</p>
+<input type="number" id="fi" value="0" onchange="price()">
+
+<p>Fixed-wing attack aircraft (2,300 PPU):</p>
+<input type="number" id="fw" value="0" onchange="price()">
+
+<p>Transport planes (2,800 PPU):</p>
+<input type="number" id="tp" value="0" onchange="price()">
+
+<p>Trainer planes (1,870 PPU):</p>
+<input type="number" id="trp" value="0" onchange="price()">
+
+<p>Transport helicopters (950 PPU):</p>
+<input type="number" id="th" value="0" onchange="price()">
+
+<p>Attack helicopters (850 PPU):</p>
+<input type="number" id="ah" value="0" onchange="price()">
+
+<p><b>NAVAL VESSELS</b></p>
+
+<p>Aircraft carriers (3,500,000 PPU):</p>
+<input type="number" id="ac" value="0" onchange="price()">
+
+<p>Frigates (30,000 PPU):</p>
+<input type="number" id="fr" value="0" onchange="price()">
+
+<p>Destroyers (20,000 PPU):</p>
+<input type="number" id="des" value="0" onchange="price()">
+
+<p>Corvettes (10,000 PPU):</p>
+<input type="number" id="cv" value="0" onchange="price()">
+
+<p>Submarines (60,000 PPU):</p>
+<input type="number" id="sub" value="0" onchange="price()">
+
+<p>Coastal defense craft (9,000 PPU):</p>
+<input type="number" id="cdc" value="0" onchange="price()">
+
+<p><b>LAND SYSTEMS AND TROOPS</b></p>
+
+<p>Frontline soldier (40 PPU):</p>
+<input type="number" id="fs" value="0" onchange="price()">
+
+<p>Reserve soldier (4 PPU):</p>
+<input type="number" id="rs" value="0" onchange="price()">
+
+<p>Long range missile system (100,000 PPU):</p>
+<input type="number" id="lrm" value="0" onchange="price()">
+
+<p>Medium range missile system (25,000 PPU):</p>
+<input type="number" id="mrm" value="0" onchange="price()">
+
+<p>Short range missile system (10,000 PPU):</p>
+<input type="number" id="srm" value="0" onchange="price()">
+
+<script>
+    function price() {
+        budget = parseInt(document.getElementById("totalbudget").innerHTML);
+        var cost = 0;
+        var prices = [550, 200, 5500, 2300, 2800, 1870, 950, 850, 3500000, 25000, 20000, 10000, 60000, 9000, 35, 4, 100000, 25000, 10000];
+        var inputs = document.getElementsByTagName("input");
+        for (var i = 0; i < inputs.length - 4; i++) {
+            if (inputs[i].value == "") inputs[i].value = 0;
+            cost += parseInt(inputs[i].value) * prices[i];
+        }
+        budget -= cost;
+        document.getElementById("budget").innerHTML = budget;
+    }
+    
+    function submit() {
+        var submission = "";
+        var inputs = document.getElementsByTagName("input");
+        for (var i = 0; i < inputs.length - 4; i++) submission += inputs[i].value + ",";
+        
+        document.getElementById("databox").value = submission;
+        document.getElementById("namebox").value = nation;
+        document.getElementById("leftoverbox").value = budget;
+        
+        document.getElementById("submit").click();
+    }
+</script>
+
+<form action="" method="post">
+    <hr>
+    <p>Verification code (click <a href="https://www.nationstates.net/page=verify_login" target="_blank">here</a>):</p>
+    <input type="text" name="vcode">
+    <input type="hidden" name="name" id="namebox">
+    <input type="hidden" name="data" id="databox">
+    <input type="hidden" name="leftover" id="leftoverbox">
+    <button id="submit" style="display:none"></button>
+</form>
+
+<p>Make sure you look over your numbers before submitting. Your remaining budget will be put toward research.</p>
+<button onclick="submit()">Submit</button>

@@ -1,0 +1,7 @@
+# ECO: Call for Action
+
+Posted by: the_kolam_brotherhood
+
+Nations involved: Everyone
+
+The newly appointed Kolami Prime Minister, Karyl Ejmyla, announced today a call to action regarding the recent economic crises that struck the recovering Esterian market. PM Ejmyla stated, "Every nation in Norrland needs to work with each other to find economically stable solutions to the recent squabbles that took place in Esteriore. Nations that try to benefit from this situation will soon flow with corruption, freely spending money until - uh oh, it's all gone. All nations are prone to corruption. The economic plans of these now rich and "payed-off" nations are faulty and cause inflation, which leads to more distressing crises like like the ones we are experiencing right now. Next, wealth gaps widen, the rich becoming richer and the poor becoming poorer; working classes struggle as the minority oppresses the majority, and prosperity is seen only at the upper level of society. Nations crumble this way. If we all attempt to create a solution to this issue, then all nations will recover together. Not only does this save the world's economy as a whole, but it also shows a sense of cooperation between states."

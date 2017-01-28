@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Norrlympics Point Assigner</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Assign Points</h1>
+        <h2>2017 Winter Norrlympics</h2>
+        <form action="" method="post">
+            <p>Nation Name:</p>
+            <input type="text" name="nation">
+            
+            <p>Verification Code (click <a href="https://www.nationstates.net/page=verify_login" target="_blank">here</a>):</p>
+            <input type="text" name="vcode">
+            
+            <hr>
+            
+            <p>Football/Soccer:</p>
+            <input type="number" name="soccer" onchange="updateNum()">
+            
+            <p>Rugby:</p>
+            <input type="number" name="rugby" onchange="updateNum()">
+            
+            <p>Ice Hockey:</p>
+            <input type="number" name="hockey" onchange="updateNum()">
+            
+            <p>Ice Skating:</p>
+            <input type="number" name="skating" onchange="updateNum()">
+            
+            <p>Bobsled:</p>
+            <input type="number" name="bobsled" onchange="updateNum()">
+            
+            <p>Skiing:</p>
+            <input type="number" name="ski" onchange="updateNum()">
+            
+            <p>Snowboarding:</p>
+            <input type="number" name="snowboard" onchange="updateNum()">
+            
+            <p>Biathlon:</p>
+            <input type="number" name="biathlon" onchange="updateNum()">
+            
+            <hr>
+            
+            <p>Check the top-right corner to make sure you have points remaining.</p>
+            <button>Submit</button>
+        </form>
+        <div id="remaining">Points Remaining: 32</div>
+        <script src="script.js"></script>
+    </body>
+</html>

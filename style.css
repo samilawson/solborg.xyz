@@ -1,0 +1,21 @@
+body {
+    color: #4f4f4f;
+    font-family: sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a, a:visited {
+    color: dodgerblue;
+}
+
+a:hover {
+    text-decoration: none;
+}

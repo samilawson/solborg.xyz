@@ -1,0 +1,334 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+* {
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+html {
+
+}
+
+body {
+	font:15px/1.3 "Montserrat", sans-serif;
+	color: #ccc;
+	color: #ccc;
+    background: #444;
+}
+
+a, a:visited {
+	outline: none;
+	color: #bba6df;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+section, footer, header, #topbar{
+	display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*----------------------------
+	Headings
+-----------------------------*/
+
+
+h1 {
+	font: 32px "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+    color: #fff;
+}
+
+h2 {
+	font: 48px "Montserrat", sans-serif;
+    color: #fff;
+}
+
+h1 a, h2 a {
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+
+/*----------------------------
+	Content & Posts
+-----------------------------*/
+
+
+#content {
+	display: block;
+	font: 18px/1.5 "Droid Serif", Times, Cambria, serif;
+	width: 900px;
+    margin: auto;
+}
+
+#content p,
+#content ul {
+	margin-bottom:25px;
+}
+
+#content ul {
+	padding-left:20px;
+}
+
+#content li {
+	margin-bottom:5px;
+}
+
+#content div.actions {
+	margin-top:25px;
+	font-size:14px;
+	font-family:"Montserrat", sans-serif;
+}
+
+#content div.actions .readmore {
+	text-decoration: none !important;
+	padding:0 2px;
+}
+
+#content div.actions .readmore:hover {
+	background-color: #bba6df;
+	color: #fff;
+}
+
+#content div.actions .comments {
+	color: #ccc;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+.post {
+	padding: 50px 0 15px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.post .date {
+	font: bold 12px "Montserrat", sans-serif;
+	text-transform: uppercase;
+	color: #a7a7a7;
+	margin: 24px 0 30px 20px;
+	position: relative;
+}
+
+.post .date:before {
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	content: '';
+	left: -22px;
+	top: -1px;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyNjZDQjA1OTM1ODZFMjExQUUwM0IwQzQwMjlEOTczMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpENjYzQjI4QjhCNDYxMUUyQjNENkFGQ0NCRUExRDM1NSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpENjYzQjI4QThCNDYxMUUyQjNENkFGQ0NCRUExRDM1NSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4NjA1NUJCNzUzOEFFMjExQUUwM0IwQzQwMjlEOTczMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyNjZDQjA1OTM1ODZFMjExQUUwM0IwQzQwMjlEOTczMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PhTXJRoAAADXSURBVHjaYvz//z8DNQDL7t27sYmDTGfEoQdDztXVlYEJyg4B4rdA/AGLJhjGJgfS4wfiwAyaCcRCQMwGxMxQMTY0jdjkQHqmwQzihwqAACcQ50CdXoRmEC45aXAYYQmDCVDMQIocskGMZEbYB+QwQokBEAaCzch8dDF0wMRAJcC4a9cufqjzYF7bTKReX5jXgC4UYMHiNbACYEJ9AaQkkL2BLIaekIeA15AUbEZiM+ARo67XQAZ9BOJ3eFxGSOwFcspOBOLnoBgh0SEgQ+LAgU2tgg0gwACqTkAIjemp4gAAAABJRU5ErkJggg==');
+}
+
+
+/*----------------------------
+	The top bar
+-----------------------------*/
+
+
+#topbar {
+	display: block;
+	width: 100%;
+	padding: 30px 0 30px 0;
+    text-align: center;
+    background: #333;
+}
+
+#topbar p.description {
+	font-size: 16px;
+	line-height: 1.8;
+	color: #aaa;
+    max-width: 500px;
+    margin: auto;
+}
+
+#topbar ul {
+	font: bold 18px "Montserrat", sans-serif;
+	text-transform: uppercase;
+	list-style: none;
+    margin-top: 20px;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar ul li a {
+	text-decoration: none !important;
+	display: inline-block;
+	padding: 0 3px;
+	margin: 2px 5px;
+    border-radius: 3px;
+}
+
+#topbar ul li a:hover {
+	background-color: #bba6df;
+	color: #fff;
+}
+
+#topbar p.author {
+	position: absolute;
+	bottom: 20px;
+	height: 30px;
+	font-size: 12px;
+	color: #888;
+}
+
+#topbar img {
+    width: 300px;
+    padding-bottom: 18px;
+}
+
+
+/*----------------------------
+	Pagination buttons
+-----------------------------*/
+
+
+.pagination-arrow {
+	display: inline-block;
+	font: bold 16px/1 "Montserrat", sans-serif;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin: 20px 15px;
+	color: #ccc !important;
+	padding: 8px 12px;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.pagination-arrow.newer {
+	padding-left: 20px;
+}
+
+.pagination-arrow.older {
+	padding-right: 20px;
+	float:right;
+}
+
+.pagination-arrow.newer:before,
+.pagination-arrow.older:before{
+	content: '';
+	border: 5px solid #ccc;
+	border-color: transparent #ccc transparent transparent;
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 3px;
+	top: 12px;
+}
+
+.pagination-arrow.older:before{
+	left: auto;
+	right: 3px;
+	border-color: transparent transparent transparent #ccc;
+}
+
+/*----------------------------
+	Custom footer
+-----------------------------*/
+
+#footer {
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 18px;
+}
+
+
+/*----------------------------
+	The 404 page
+-----------------------------*/
+
+
+.message {
+	padding-top:50px;
+}
+
+.message h1 {
+	font-size:36px;
+	margin-bottom: 18px;
+}
+
+.message p {
+	font-size:13px;
+}
+
+.center {
+	text-align:center;
+}
+
+
+/*----------------------------
+	Media queries
+-----------------------------*/
+
+
+/*@media all and (max-width: 1024px) {
+	#topbar {
+		left: 5%;
+		margin-left: 0;
+		width: 25%;
+	}
+
+	#content {
+		left: 35%;
+		margin-left: 0;
+		width: 60%;
+	}
+}*/
+
+@media all and (max-width: 840px) {
+
+	h2 {
+		font-size:36px;
+	}
+
+	#topbar {
+		margin-left: 0;
+		position: static;
+		width: 90%;
+		padding: 5%;
+		text-align: center;
+	}
+
+	#topbar .description {
+		margin-bottom: 25px;
+	}
+
+	#topbar li {
+		display: inline-block;
+	}
+
+	#topbar ul {
+		text-align: center;
+	}
+
+	#topbar .author {
+		display: none;
+	}
+
+	#content {
+		position: static;
+		padding: 5%;
+		padding-top: 0;
+		width: 90%;
+	}
+    
+}

@@ -1,0 +1,7 @@
+# CIVIL WAR: Generosity Towards War Victims Shown by The Kolam Brotherhood
+
+Posted by: the_kolam_brotherhood
+
+Nations involved: The Kolam Brotherhood, Afghanipakijikistan
+
+The Kolam Brotherhood has opened arms to 200,000-275,000 refugees after the recent events in Afghanipakijikistan. On January 5th, The Brotherhood will allow Afghanipakijikistani refugees to enter designated areas. The Kolam Brotherhood plans to locate these refugees in the currently near-empty city of Port Kybab. The city currently is home to 500 people, 80% of which are Violetist, but can house 330,000. Port Kybab is located on Kiska Island, which has been cleared to make way for the port city. It has all the services offered to rest of The Brotherhood, if not more. "We project that a strong fishing industry will develop as refugees come in. After a decade, we think that Port Kybab will balance out with the rest of The Kolam Brotherhood's job and educational distribution," declared the Kolami Minister of Youth, Employment, Occupational Integration, Culture, and Sports. The Kolam Brotherhood will give these refugees the basic rights given to all other Kolami citizens. After they stay in the Kolam Brotherhood for 4 years, they can pass a test and become Kolami citizens.
